@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jgasparo <jgasparo@student.42.fr>          +#+  +:+       +#+        */
+/*   By: jgasparo <jgasparo@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/12 15:47:51 by jgasparo          #+#    #+#             */
-/*   Updated: 2023/09/28 16:38:19 by jgasparo         ###   ########.fr       */
+/*   Updated: 2025/02/05 20:20:42 by jgasparo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ int	main(int argc, char **argv)
 		{
 			input = ft_parse(argv[1]);
 			if (!input)
-				exit(0);
+				exit(1);
 			list_a = ft_initialize(input);
 		}
 		if (argc > 2)
